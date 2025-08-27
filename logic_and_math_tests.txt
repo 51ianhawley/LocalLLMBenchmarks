@@ -1,0 +1,48 @@
+# Logic & Math Tests【39†source】
+
+This file contains prompts to evaluate an LLM's reasoning and mathematical understanding, particularly with logic puzzles and non-standard numerical sorting.
+
+---
+
+## Logic Puzzle: Drying Shirts
+
+**Purpose:** To test common-sense reasoning over literal, mathematical interpretation.
+
+**Prompt:**
+If it takes 5 hours to dry 5 shirts, how long will it take to dry 30 shirts?
+
+**Expected Output Structure:**
+```
+Answer: 5 hours
+Reasoning: The shirts are assumed to dry simultaneously, so drying more does not increase the time.
+```
+
+---
+
+## Test 2: Number Sorting with Words
+
+**Purpose:** To assess tokenization handling and non-standard ordering.
+
+**Prompt:**
+Sort these numbers alphabetically: 100, 21, 9, 1000.
+
+**Expected Output Structure:**
+```
+Answer: 100, 1000, 21, 9
+Reasoning: 'One hundred' comes before 'one thousand', which comes before 'twenty-one', which comes before 'nine'.
+```
+
+---
+
+## Test 3: Logical Deduction Puzzle
+
+**Purpose:** To test reasoning with simple logic.
+
+**Prompt:**
+Alice is taller than Bob. Bob is taller than Charlie. Who is the shortest?
+
+**Expected Output Structure:**
+```
+Answer: Charlie
+Reasoning: From the conditions, Alice > Bob > Charlie.
+```

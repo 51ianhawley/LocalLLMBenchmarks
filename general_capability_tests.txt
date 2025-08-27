@@ -1,0 +1,60 @@
+# General Capability & Instruction Following Tests【21†source】
+
+This file includes prompts that test an LLM's fundamental abilities to follow specific instructions, handle word tokenization, and format output precisely.
+
+---
+
+## The "Apple" Test
+
+**Purpose:** Assesses the ability to follow specific, repetitive constraints.
+
+**Prompt:**
+Write the word `apple` exactly **five times** on separate lines, with no punctuation, no numbering, and no additional words.
+
+**Expected Output Structure:**
+```
+apple
+apple
+apple
+apple
+apple
+```
+
+---
+
+## The "Strawberry" Test
+
+**Purpose:** Evaluates how the LLM handles tokenization and simple counting tasks.
+
+**Prompt:**
+Write the word `strawberry` exactly **10 times** in a single line, separated by commas, with no trailing comma.
+
+**Expected Output Structure:**
+```
+strawberry, strawberry, strawberry, strawberry, strawberry, strawberry, strawberry, strawberry, strawberry, strawberry
+```
+
+---
+
+## The Spelling Test
+
+**Purpose:** A related test to evaluate precise output formatting.
+
+**Prompt:**
+Spell the word `encyclopedia` one letter per line.
+
+**Expected Output Structure:**
+```
+e
+n
+c
+y
+c
+l
+o
+p
+e
+d
+i
+a
+```
